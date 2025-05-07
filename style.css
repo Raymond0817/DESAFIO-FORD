@@ -67,9 +67,20 @@ footer{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-}
+    padding: 16px; 
+    position: fixed; 
+    bottom: 0;
+
+}   
 .redes{
     display: flex;
     font-size: 16px;
     margin-left: 12px;
+    vertical-align: text-top;
+    align-items: center;
+    gap: 10px;
+}
+.redes img{
+    width: 30px;
+   
 }
