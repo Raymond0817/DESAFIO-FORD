@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 html,
 body {
     height: 100%;
@@ -25,16 +32,14 @@ nav {
     box-shadow: 0 2px 2px rgba(23, 25, 170, 0.89);
 }
 
-.logo {
-    text-align: left;
-}
 
 .logo img {
     height: 50px;
     width: auto;
     margin: 5px;
 }
-.link a{
+
+.link a {
     margin: 0 16px;
     color: #1351b8;
     font-size: 25px;
@@ -42,37 +47,43 @@ nav {
     text-decoration: none;
     text-align: center;
 }
-.link{
+
+.link {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
 }
-.imagecar{
+
+.imagecar {
     text-align: center;
     margin-top: 12px;
 
 }
-.imagecar img{
+
+.imagecar img {
     border-radius: 10px;
 }
-.imagecar p{
+
+.imagecar p {
     font-size: 25px;
     font-style: italic;
 }
-footer{
+
+footer {
+
     background-color: #1b357e;
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
-    padding: 16px; 
-    position: fixed; 
+    padding: 10px;
+    /* position: fixed; */
     bottom: 0;
 
-}   
-.redes{
+}
+
+.redes {
     display: flex;
     font-size: 16px;
     margin-left: 12px;
@@ -80,7 +91,28 @@ footer{
     align-items: center;
     gap: 10px;
 }
-.redes img{
+
+.redes img {
     width: 30px;
-   
+
+}
+
+.copy {
+    position: relative;
+    top: 0.8rem;
+
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+
+}
+.tabela{
+    display:flex;
+    justify-content: space-around;
+
+}
+main{
+    text-align: center;
 }
