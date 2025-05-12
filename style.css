@@ -78,7 +78,7 @@ footer {
     justify-content: space-between;
     width: 100%;
     padding: 10px;
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
 
 }
