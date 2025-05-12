@@ -119,9 +119,18 @@ main{
 }
 
 .video{
-    margin-left: 50%;
+    height: 50%;
+    width: 65%;    
 }
 
 .texto-video{
-    margin-right: 50%;
+    height: 50%;
+    width: 30%;
+    margin-top: 10%;
+    text-align: justify;
+}
+
+.video-texto{
+    display:flex;
+    justify-content: space-around;
 }
