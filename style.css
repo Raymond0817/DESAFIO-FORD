@@ -107,6 +107,7 @@ iframe {
     width: 100%;
     height: 500px;
     border: 1px;
+    border-radius: 10px; 
 }
 .tabela{
     display:flex;
@@ -120,7 +121,8 @@ main{
 
 .video{
     height: 50%;
-    width: 65%;    
+    width: 65%;  
+     
 }
 
 .texto-video{
@@ -128,9 +130,36 @@ main{
     width: 30%;
     margin-top: 10%;
     text-align: justify;
+    padding: 0 20px;
 }
 
 .video-texto{
     display:flex;
     justify-content: space-around;
+}
+.formulario{
+    width: 300px;/*altera a largura do formulario*/ 
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px;/**/
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 12PX;
+}
+input[type=submit] {
+    background-color: #1351b8; 
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #1b357e;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-weight: bolder;
 }
