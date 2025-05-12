@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #1351b8;
+    padding: 16px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    margin: 0 16px;
+    align-items: center;
+    /* justify-content: space-between; */
+    box-shadow: 0 2px 2px rgba(23, 25, 170, 0.89);
+}
+
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin: 5px;
+}
+
+.link a {
+    margin: 0 16px;
+    color: #1351b8;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.imagecar {
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+.imagecar img {
+    border-radius: 10px;
+}
+
+.imagecar p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+footer {
+
+    background-color: #1b357e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+
+}
+
+.redes {
+    display: flex;
+    font-size: 16px;
+    margin-left: 12px;
+    vertical-align: text-top;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes img {
+    width: 30px;
+
+}
+
+.copy {
+    position: relative;
+    top: 0.8rem;
+
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: 1px;
+}
+.tabela{
+    display:flex;
+    justify-content: space-around;
+
+
+}
+main{
+    text-align: center;
+}
+
+.video{
+    margin-left: 50%;
+}
+
+.texto-video{
+    margin-right: 50%;
+}
