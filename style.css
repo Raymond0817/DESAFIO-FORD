@@ -58,11 +58,12 @@ nav {
 .imagecar {
     text-align: center;
     margin-top: 12px;
-
+  
 }
 
 .imagecar img {
     border-radius: 10px;
+    width: 70%;
 }
 
 .imagecar p {
@@ -162,4 +163,28 @@ input[type=submit]:hover{
 }
 label{
     font-weight: bolder;
+}
+@media( max-width:720px) {
+    .tabela { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-texto{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .texto-video{
+        width: 100%;
+    }
+    .imagecar p{
+        font-size: 12px;
+    }
+    .video{
+        width: 100%;
+    }
+    .contato{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
